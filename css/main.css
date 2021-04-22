@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "NunitoRegular";
+    src: url("../fonts/NunitoRegular.ttf");
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+    font-family: "NunitoRegular", sans-serif;
+}
+
+#header {
+    padding-top: 27px;
+    text-align: center;
+}
+
+#main-container {
+    padding: 112px 0 191px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#block-form {
+    max-width: 496px;
+    margin-right: 52px;
+}
+
+#block-form-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 7px;
+    height: 56px;
+}
+
+#block-form-text {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 42px;
+    color: #636363;
+    height: 81px;
+}
+
+#block-form .form-info {
+    margin-bottom: 20px;
+}
+
+#block-form .form-info-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 5px;
+    color: #C6C6C4;
+}
+
+::placeholder {
+    font-family: "NunitoRegular", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+#block-form .input-text {
+    border: 0;
+    border-bottom: 1px solid #C6C6C4;
+    background: #FFFFFB;
+    outline: 0;
+    width: 452px;
+    height: 25px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+#form-agree {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #636363;
+}
+
+#form-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+#button {
+    background: #DD3142;
+    border-radius: 40px;
+    padding: 21px 68px 25px 68px;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+#form-message {
+    text-align: center;
+}
+
+#form-message a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-decoration: none;
+}
+
+#block-image {
+    margin-top: 60px;
+}
